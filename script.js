@@ -33,7 +33,15 @@ first:for (let i=0;i>2;i++){
     
 
 }
-
+if (personalMovieDB.count<10){
+    console.log('You watched less films than I expected');
+} else if(personalMovieDB.count>=   10 && personalMovieDB.count<30){
+    console.log("You are clasic film enjoyer");
+} else if(personalMovieDB.count>=30){
+    console.log("You are big film fan");
+} else{
+    console.log("It was something wrong");
+}
 console.log(personalMovieDB);
 
 
