@@ -31,8 +31,22 @@ first:for (let i=0;i>2;i++){
         i--;
     }
     
+// let i=2
+// while (i<2){
+//     i++;
+//     const a=prompt("One of lsat seen films",""),
+//           b=prompt("Rate it","");
+//     if (a!=null && b!=null && a!='' && b!='' && a.length<50){
+//         personalMovieDB.movies[a]=b;
+//         console.log("Done");
+//     } else {
+//         console.log('Error');
+//         i--;
+//     }
+// }
 
 }
+
 if (personalMovieDB.count<10){
     console.log('You watched less films than I expected');
 } else if(personalMovieDB.count>=   10 && personalMovieDB.count<30){
@@ -43,6 +57,7 @@ if (personalMovieDB.count<10){
     console.log("It was something wrong");
 }
 console.log(personalMovieDB);
+
 
 
 
